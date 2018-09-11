@@ -5,7 +5,7 @@ import {Provider} from 'react-redux';
 import { createStore } from 'redux';
 import Chat from './chat.js';
 import reducer from './reducers';
-
+// создание хранилиша и прокидка редюсера
 const store = createStore(reducer);
 // прокидка в виндов
 window.store = store;
